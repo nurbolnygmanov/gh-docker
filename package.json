@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-action": "esbuild ./.github/actions/index.js --bundle --platform=node --format=esm --outfile=./.github/actions/dist/index.js --minify"
+    "build-action": "esbuild ./.github/actions/index.js --bundle --platform=node --format=cjs --outfile=./.github/actions/dist/index.cjs --minify"
   },
   "repository": {
     "type": "git",
